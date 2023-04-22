@@ -1,0 +1,18 @@
+module CLA_8bit(
+	input reg [7:0] x,y,
+	input reg c_in,
+	output wire c_out,
+	output wire [7:0] s 
+);
+	wire [6:0] c;
+	
+	full_adder fa_0(.x(x[0]), .y(y[0]), .c_in(c_in), .c_node(c[0]), .s(s[0]));
+	full_adder fa_1(.x(x[1]), .y(y[1]), .c_in(c[0]), .c_node(c[1]), .s(s[1]));
+	full_adder fa_2(.x(x[2]), .y(y[2]), .c_in(c[1]), .c_node(c[2]), .s(s[2]));
+	full_adder fa_3(.x(x[3]), .y(y[3]), .c_in(c[2]), .c_node(c[3]), .s(s[3]));
+	full_adder fa_4(.x(x[4]), .y(y[4]), .c_in(c[3]), .c_node(c[4]), .s(s[4]));
+	full_adder fa_5(.x(x[5]), .y(y[5]), .c_in(c[4]), .c_node(c[5]), .s(s[5]));
+	full_adder fa_6(.x(x[6]), .y(y[6]), .c_in(c[5]), .c_node(c[6]), .s(s[6]));
+	full_adder fa_7(.x(x[7]), .y(y[7]), .c_in(c[6]), .c_node(c_out), .s(s[7]));
+	
+endmodule 

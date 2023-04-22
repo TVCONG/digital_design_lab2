@@ -1,0 +1,105 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/edabk/CONGTV192729/TKS_T7/homework/buoi2/btvn/MAJORITY_simulation
+T_opt
+!s110 1682212690
+VkLkol:;]NZ=NDH7bojZB[2
+04 9 4 work testbench fast 0
+=1-000ae431a4f1-64448752-bc291-f036
+!s124 OEM10U10 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+R1
+vCLA_8bit
+Z3 !s110 1682212682
+!i10b 1
+!s100 j9C6A:UThB4IDA=`PWJ>m0
+I^<gE=im@oY``WQEgC8fZU2
+Z4 d/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation
+w1681983900
+8/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/CLA_8bit.v
+F/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/CLA_8bit.v
+!i122 149
+L0 1 18
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z7 !s108 1682212682.000000
+!s107 /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/CLA_8bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/CLA_8bit.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@c@l@a_8bit
+vfull_adder
+R3
+!i10b 1
+!s100 8NA;2Bom3OhZA`3^IQF1U3
+IE<:iPjAehi>ocA`0QXkNh3
+R4
+w1682212675
+8/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/full_adder.v
+F/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/full_adder.v
+!i122 150
+L0 2 13
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/full_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/full_adder.v|
+!i113 0
+R8
+R2
+vtestbench
+!s110 1682212894
+!i10b 1
+!s100 :LRYC3WA4XVFAkh9FgmC03
+I=N=k@=Q>WR^LFMML1AIMC3
+R4
+w1682212600
+8/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/testbench.v
+F/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/testbench.v
+!i122 151
+L0 3 38
+R5
+R6
+r1
+!s85 0
+31
+!s108 1682212894.000000
+!s107 /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/testbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/testbench.v|
+!i113 0
+R8
+R2

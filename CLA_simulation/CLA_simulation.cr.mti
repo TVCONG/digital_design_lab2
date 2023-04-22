@@ -1,0 +1,43 @@
+/home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/full_adder.v {1 {vlog -work work -vopt -stats=none /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/full_adder.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/CLA_8bit.v {1 {vlog -work work -vopt -stats=none /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/CLA_8bit.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module CLA_8bit
+
+Top level modules:
+	CLA_8bit
+
+} {} {}} /home/edabk/CONGTV192729/TKS_T7/homework/buoi2/btvn/CLA_simulation/testbench.v {1 {vlog -work work -vopt -stats=none /home/edabk/CONGTV192729/TKS_T7/homework/buoi2/btvn/CLA_simulation/testbench.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/testbench.v {1 {vlog -work work -vopt -stats=none /home/tvcong/Documents/TKS_Thu7_EDABK/buoi2/btvn/CLA_simulation/testbench.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} /home/edabk/CONGTV192729/TKS_T7/homework/buoi2/btvn/CLA_simulation/CLA_8bit.v {1 {vlog -work work -vopt -stats=none /home/edabk/CONGTV192729/TKS_T7/homework/buoi2/btvn/CLA_simulation/CLA_8bit.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module CLA_8bit
+
+Top level modules:
+	CLA_8bit
+
+} {} {}} /home/edabk/CONGTV192729/TKS_T7/homework/buoi2/btvn/CLA_simulation/full_adder.v {1 {vlog -work work -vopt -stats=none /home/edabk/CONGTV192729/TKS_T7/homework/buoi2/btvn/CLA_simulation/full_adder.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}}

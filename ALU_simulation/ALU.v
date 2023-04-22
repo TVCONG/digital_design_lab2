@@ -1,0 +1,20 @@
+module ALU(
+	input wire [31:0] in1,in2, // in1, in2 lan luot la dau vao A va B
+	input wire [2:0] opcode, // dau vao 3 bit xac dinh 8 phep toan
+	output reg [31:0] out	// out la dau ra C 
+	);
+	
+	always @(*) begin
+		case (opcode)
+			3'b000: out = in1 + in2;
+			3'b001: out = in1 - in2;
+			3'b010: out = ~in1; // not A
+			3'b011: out = in1 & in2;
+			3'b100: out = in1 | in2;
+			3'b101: out = in1 ^ in2;
+			3'b110: out = in1 << 1; // dich trai in1 1 bit
+			3'b111: out = in1 >> 1; 
+			default : out = 4'd0;
+		endcase
+	end
+endmodule
